@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
 	const [hideMenu, setHideMenu] = useState(true);
 
+	
 	return (
 		<header>
 			<div className="container">
@@ -24,7 +25,7 @@ const Header = () => {
 					</nav>
 
 					<div id="toggle-icon" className="icons">
-						<button className="link" onClick={() => setHideMenu(!hideMenu)}><i className="fa-regular fa-bars"></i></button>
+						<button onClick={() => setHideMenu(!hideMenu)} className="link"><i className="fa-regular fa-bars"></i></button>
 					</div>
 				</div>
 			</div>

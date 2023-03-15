@@ -3,7 +3,7 @@ html, body{
     @include color-default;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -18,18 +18,19 @@ html, body{
         text-decoration: none;
         margin: 10px 12px;
         display: block;
-    }
-
-    &:hover,
-    &.active {
-        color: $color-theme;
-        text-decoration: none;
+    
+        &:hover,
+        &.active {
+            color: $color-theme;
+            text-decoration: none;
+        }
     }
 }
 
+
 .icons {
 
-    .link{
+    .link {
         position: relative;
         height: 36px;
         width: 36px;

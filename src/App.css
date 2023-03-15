@@ -26,7 +26,7 @@ html, body {
   margin: 10px 12px;
   display: block;
 }
-.links:hover, .links.active {
+.links .link:hover, .links .link.active {
   color: #ff7373;
   text-decoration: none;
 }

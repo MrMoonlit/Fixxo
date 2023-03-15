@@ -23,10 +23,9 @@ const Header = () => {
 						<NavLink className="link" to="/cart"><i className="fa-regular fa-bag-shopping"></i></NavLink>
 						<NavLink className="link ms-5" to="/account"><i className="fa-regular fa-user"></i></NavLink>
 					</nav>
-
-					<div id="toggle-icon" className="icons">
-						<button onClick={() => setHideMenu(!hideMenu)} className="link"><i className="fa-regular fa-bars"></i></button>
 					</div>
+				<div id="toggle-icon" className="icons">
+					<button onClick={() => setHideMenu(!hideMenu)} className="link"><i className="fa-regular fa-bars"></i></button>
 				</div>
 			</div>
 		</header>

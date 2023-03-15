@@ -1,6 +1,5 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link, NavLink } from "react-router-dom";
-import { useState } from "react";
 
 const Header = () => {
 	const [hideMenu, setHideMenu] = useState(true);
@@ -9,6 +8,7 @@ const Header = () => {
 		<header>
 			<div className="container">
 				<Link id="logotype" to="/">Fixxo.</Link>
+				
 				<div id="menu" className={hideMenu ? 'hide' : ''}>
 					<nav className="menu-links links">
 						<NavLink className="link" to="/">Home</NavLink>
@@ -24,7 +24,7 @@ const Header = () => {
 					</nav>
 
 					<div id="toggle-icon" className="icons">
-						<button className="link" onClick={()=>setHideMenu(!hideMenu)}><i className="fa-regular fa-bars"></i></button>
+						<button className="link" onClick={() => setHideMenu(!hideMenu)}><i className="fa-regular fa-bars"></i></button>
 					</div>
 				</div>
 			</div>

@@ -7,8 +7,7 @@ const Home = () => {
   return (
     <>
     <Header/>
-    {/* <Showcase/> */}
-    <Collection title="Featured Products"/>
+    <Showcase/>
     </>
   )
 }

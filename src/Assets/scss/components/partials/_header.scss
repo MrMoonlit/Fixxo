@@ -16,7 +16,6 @@ header {
     #menu {
         grid-area: menu;
         
-
         @include lg {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -25,14 +24,10 @@ header {
 
         .menu-links {
             grid-area: menulinks;
-            @include lg {
-                text-align: center;
-            }
         }
 
         .menu-icons {
             grid-area: menuicons;
-            text-align: center;
             margin-top: 40px;
 
             @include lg {
@@ -68,5 +63,20 @@ header {
         }
     }
 
-    
+    .links {
+        @include lg {
+            @include center-content;
+        }
+    }
+
+    .icons {
+        .link {
+            margin-left: 1rem;
+        }
+
+        @include center-content;
+        @include lg {
+            justify-content: flex-end;
+        }
+    }
 }

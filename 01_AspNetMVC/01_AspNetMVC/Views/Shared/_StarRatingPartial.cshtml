@@ -1,0 +1,13 @@
+﻿<div className='star-rating'>@*@Stars()*@</div>
+
+
+ const stars = Array.from({ length: 5}, (_, index) => (
+<i key={index} className={`fa-sharp fa-star ${index < rating ? "fa-solid" : "fa-regular"}`}></i>
+  ))
+
+@functions{
+    private List<string> Stars()
+    {
+        return new List<string>();
+    }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\01_AspNetMVC.csproj": {}
+    "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\01_AspNetMVC.csproj": {}
   },
   "projects": {
-    "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\01_AspNetMVC.csproj": {
+    "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\01_AspNetMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\01_AspNetMVC.csproj",
+        "projectUniqueName": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\01_AspNetMVC.csproj",
         "projectName": "01_AspNetMVC",
-        "projectPath": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\01_AspNetMVC.csproj",
+        "projectPath": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\01_AspNetMVC.csproj",
         "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
-        "outputPath": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\obj\\",
+        "outputPath": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

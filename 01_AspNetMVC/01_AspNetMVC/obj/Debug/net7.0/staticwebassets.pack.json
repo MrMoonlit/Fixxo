@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\css\\site.css",
+      "Id": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\favicon.ico",
+      "Id": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\office-style.png",
+      "Id": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\office-style.png",
       "PackagePath": "staticwebassets\\images\\office-style.png"
     },
     {
-      "Id": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\party-style.png",
+      "Id": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\party-style.png",
       "PackagePath": "staticwebassets\\images\\party-style.png"
     },
     {
-      "Id": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\showcase-img.png",
+      "Id": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\showcase-img.png",
       "PackagePath": "staticwebassets\\images\\showcase-img.png"
     },
     {
-      "Id": "C:\\Prog22\\repos\\AspNETvs\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\js\\site.js",
+      "Id": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {

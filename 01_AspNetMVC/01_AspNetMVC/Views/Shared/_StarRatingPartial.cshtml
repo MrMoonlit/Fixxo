@@ -1,12 +1,12 @@
-﻿<div className='star-rating'>@*@Stars()*@</div>
+﻿<div className='star-rating'>@*@Stars({rating})*@</div>
 
-
+@*
  const stars = Array.from({ length: 5}, (_, index) => (
 <i key={index} className={`fa-sharp fa-star ${index < rating ? "fa-solid" : "fa-regular"}`}></i>
   ))
-
+*@
 @functions{
-    private List<string> Stars()
+    private List<string> Stars(int rating)
     {
         return new List<string>();
     }

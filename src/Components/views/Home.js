@@ -8,6 +8,7 @@ const Home = () => {
     <>
     <Header/>
     <Showcase/>
+    <Collection title="Featured Products" />
     </>
   )
 }

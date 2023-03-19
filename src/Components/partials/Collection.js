@@ -8,6 +8,14 @@ const Collection = ({title}) => {
           <div className="title">{title}</div>
           <div className="item-collection">
               <CollectionItem />
+              <CollectionItem />
+              <CollectionItem />
+              <CollectionItem />
+              <CollectionItem />
+              <CollectionItem />
+              <CollectionItem />
+              <CollectionItem />
+              
           </div>
         </div>
     </section>

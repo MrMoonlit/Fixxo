@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\blackCoat.png",
+      "PackagePath": "staticwebassets\\images\\blackCoat.png"
+    },
+    {
       "Id": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\office-style.png",
       "PackagePath": "staticwebassets\\images\\office-style.png"
     },

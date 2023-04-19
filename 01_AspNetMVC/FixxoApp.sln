@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc", "01_AspNetMVC\Mvc.csproj", "{77BFC960-45A7-4F1B-8405-BBE4DC6128EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "FixxoApi\Api.csproj", "{022EEE43-F04F-4F38-BE62-EC31C92583F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77BFC960-45A7-4F1B-8405-BBE4DC6128EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BFC960-45A7-4F1B-8405-BBE4DC6128EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BFC960-45A7-4F1B-8405-BBE4DC6128EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BFC960-45A7-4F1B-8405-BBE4DC6128EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022EEE43-F04F-4F38-BE62-EC31C92583F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022EEE43-F04F-4F38-BE62-EC31C92583F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022EEE43-F04F-4F38-BE62-EC31C92583F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022EEE43-F04F-4F38-BE62-EC31C92583F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11F5D2B0-1A1A-43A4-9A31-F7D0435A59CE}
+	EndGlobalSection
+EndGlobal

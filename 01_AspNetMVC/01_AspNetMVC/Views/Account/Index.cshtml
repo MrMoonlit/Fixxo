@@ -1,0 +1,24 @@
+﻿@model LoginFormViewModel
+
+<div class="container mt-5">
+    <h2 class="text-center mb-5">Login to your account</h2>
+    <form class="" method="post" class="col-6" novalidate>
+        <div class="mb-3 d-flex justify-content-center">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label" ></label>
+            <input asp-for="Email" class="form-control" />
+            <small><span asp-validation-for="Email" class="text-danger"></span></small>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" class="form-control" />
+            <small><span asp-validation-for="Password" class="text-danger"></span></small>
+        </div>
+        <div class="d-flex">
+            <button type="submit" class="btn-theme mb-3">Login</button>
+        </div>
+        <div class="footer-space"></div>
+    </form>
+</div>

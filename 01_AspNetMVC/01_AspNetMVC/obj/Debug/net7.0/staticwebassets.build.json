@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IQCVMVFbfLiV7C5zgkNepUf4oKPbQTfLrI9Pphk0GIs=",
+  "Hash": "XsGWH352r5pbBJbNmWGQZjt/2Xo+5Qu2wGt5Ssd/K9s=",
   "Source": "01_AspNetMVC",
   "BasePath": "_content/01_AspNetMVC",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\blackCoat.png",
+      "SourceId": "01_AspNetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\",
+      "BasePath": "_content/01_AspNetMVC",
+      "RelativePath": "images/blackCoat.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\blackCoat.png"
     },
     {
       "Identity": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\wwwroot\\images\\office-style.png",

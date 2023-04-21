@@ -5,18 +5,16 @@ using WebApi.Repositories;
 
 namespace FixxoApi.Repositories
 {
-    public class UserProfileRepository : Repository<UserProfileEntity>
+    public class UserProfileRepository : Repository<UserProfileEntity, IdentityContext>
     {
-        private readonly IdentityContext _identityContext;
 
         public UserProfileRepository(IdentityContext identity) : base (identity)
         {
-            _identityContext = identity;
         }
 
         public override async Task<IEnumerable<UserProfileEntity>> GetAllAsync()
         {
-            return await _identityContext.UserProfiles
+            return await _context.UserProfiles
                 .Include(x => x.User)
                 .ToListAsync();
         }

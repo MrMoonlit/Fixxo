@@ -19,7 +19,9 @@ public class ProductEntity
 
     [Range(1, 5)]
     public int StarRating { get; set; }
-    public string Tag { get; set; } = null!;
+
+    public int TagId { get; set; }
+    public TagEntity Tag { get; set; } = null!;
 
     public int CategoryId { get; set;}
     public CategoryEntity Category { get; set; } = null!;

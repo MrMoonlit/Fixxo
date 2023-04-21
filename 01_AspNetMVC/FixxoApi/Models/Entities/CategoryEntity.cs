@@ -10,4 +10,6 @@ public class CategoryEntity
     [Required]
     [MaxLength(50)]
     public string Name { get; set; } = null!;
+
+    public IEnumerable<ProductEntity> Products { get; set; } = new List<ProductEntity>();
 }

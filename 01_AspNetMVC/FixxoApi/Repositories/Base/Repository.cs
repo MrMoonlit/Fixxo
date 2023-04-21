@@ -35,4 +35,13 @@ public abstract class Repository<TEntity, TContext> where TEntity : class where 
 
         return null!;
     }
+
+    public virtual async Task<IEnumerable<TEntity>> GetListAsync(Expression<Func<TEntity, bool>> predicate)
+    {
+        var entities = await _context.Set<TEntity>().Where(predicate).ToListAsync();
+        if (entities != null)
+            return entities;
+
+        return null!;
+    }
 }

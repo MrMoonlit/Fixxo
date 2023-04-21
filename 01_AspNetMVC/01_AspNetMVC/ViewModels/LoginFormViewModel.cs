@@ -9,7 +9,7 @@ namespace _01_AspNetMVC.ViewModels
         [EmailAddress]
         public string Email { get; set; } = null!;
 
-        [Required(ErrorMessage = "Filed is required")]
+        [Required(ErrorMessage = "Field is required")]
         [DataType(DataType.Password)]
         public string Password { get; set; } = null!;
 

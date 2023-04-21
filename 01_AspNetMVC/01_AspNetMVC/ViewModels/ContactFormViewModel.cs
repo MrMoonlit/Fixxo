@@ -15,7 +15,7 @@ namespace _01_AspNetMVC.ViewModels
         public string Email { get; set; } = null!;
 
         [Required(ErrorMessage = "Don't forget to write your message")]
-        public string Message { get; set; } = null!;
+        public string Comment { get; set; } = null!;
 
         public string ConfirmationMsg { get; set; } = "";
 
@@ -26,7 +26,7 @@ namespace _01_AspNetMVC.ViewModels
             {
                 Name = model.Name,
                 Email = model.Email,
-                Message = model.Message,
+                Comment = model.Comment,
             };
         }
 

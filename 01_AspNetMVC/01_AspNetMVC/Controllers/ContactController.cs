@@ -32,7 +32,7 @@ public class ContactController : Controller
                 ModelState.Clear();
                 model = new ContactFormViewModel()
                 {
-                    ConfirmationMsg = "Thank you for your message. Our customer support will hopefully be responive within a fortnight"
+                    ConfirmationMsg = "Thank you for your message. Our customer support will hopefully be responsive within a fortnight"
                 };
                 return View(model);
             }

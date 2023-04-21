@@ -1,4 +1,5 @@
-﻿using Api.Models.Entities;
+﻿using Api.Models.DTOs;
+using Api.Models.Entities;
 using Api.Repositories.Base;
 using FixxoApi.Contexts;
 using FixxoApi.Migrations;
@@ -16,6 +17,5 @@ public class ProductRepository : Repository<ProductEntity, DataContext>
     {
         return await _context.Products.Include("Category").Include("Tag").ToListAsync();
     }
-
-   
+    
 }

@@ -13,17 +13,17 @@ public class ProductDTO
     public string Tag { get; set; } = null!;
 
 
-    public static implicit operator ProductDTO(ProductEntity model)
+    public static implicit operator ProductDTO(ProductEntity entity)
     {
         return new ProductDTO
         {
-            Id = model.Id,
-            Title = model.Title,
-            Description = model.Description,
-            Price = model.Price,
-            StarRating = model.StarRating,
-            Category = model.Category.Name, 
-            Tag = model.Tag.Name,
+            Id = entity.Id,
+            Title = entity.Title,
+            Description = entity.Description,
+            Price = entity.Price,
+            StarRating = entity.StarRating,
+            Category = entity.Category.Name, 
+            Tag = entity.Tag.Name,
         };
     }
 }

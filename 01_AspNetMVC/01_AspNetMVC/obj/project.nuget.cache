@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0YePWBEEpv80YaWxGN3FenGzm73VToMWVHbSuNRMyWIOA3hq7xbrdrdPhos+DXXFgFXrYRcbNLlz0YRYqvYRuw==",
+  "dgSpecHash": "ZJ38Y3PbNb8xFyWVeaBc38R6s9JzV5LTWbMILs104FRUxEQyDLpobRivIxjdZA1k+5L0rEqkjPfBrh0WWSmYww==",
   "success": true,
-  "projectFilePath": "C:\\Prog22\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\Mvc.csproj",
+  "projectFilePath": "D:\\repos\\asp.net-project\\01_AspNetMVC\\01_AspNetMVC\\Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcu\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

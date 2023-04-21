@@ -9,8 +9,8 @@ namespace _01_AspNetMVC.ViewModels
         public string Name { get; set; } = null!;
 
         [Required(ErrorMessage = "You must enter a valid email address")]
-        [MinLength(2)]
-        [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", ErrorMessage = "Not a valid email")]
+        [MinLength(5)]
+        [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", ErrorMessage = "Invalid email")]
         [EmailAddress]
         public string Email { get; set; } = null!;
 

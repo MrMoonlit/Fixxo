@@ -1,3 +1,5 @@
+using Api.Repositories;
+using Api.Services;
 using FixxoApi.Contexts;
 using FixxoApi.Helpers;
 using FixxoApi.Repositories;
@@ -19,8 +21,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<IdentityContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("IdentityDB")));
 builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DataDB")));
 builder.Services.AddScoped<JwtToken>();
-builder.Services.AddScoped<UserProfileRepository>();
 builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<UserProfileRepository>();
+builder.Services.AddScoped<ProductRepository>();
+builder.Services.AddScoped<CustomerCommentRepository>();
+builder.Services.AddScoped<ProductService>();
+
 
 
 
@@ -31,6 +37,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(x =>
     x.Password.RequiredLength = 8;
 }).AddEntityFrameworkStores<IdentityContext>();
 
+#region Auth
 builder.Services.AddAuthentication(x =>
 {
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -64,7 +71,7 @@ builder.Services.AddAuthentication(x =>
             Encoding.UTF8.GetBytes(builder.Configuration.GetSection("TokenValidation").GetValue<string>("SecretKey")!))
     };
 });
-
+#endregion
 
 
 var app = builder.Build();

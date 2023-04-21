@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _01_AspNetMVC
 build_property.RootNamespace = _01_AspNetMVC
-build_property.ProjectDir = C:\Prog22\repos\asp.net-project\01_AspNetMVC\01_AspNetMVC\
+build_property.ProjectDir = D:\repos\asp.net-project\01_AspNetMVC\01_AspNetMVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Prog22\repos\asp.net-project\01_AspNetMVC\01_AspNetMVC
+build_property.MSBuildProjectDirectory = D:\repos\asp.net-project\01_AspNetMVC\01_AspNetMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/About/Index.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Account/CreateAccount.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Account/CreateAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Account/Index.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Contact/Index.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Contact/_ContactFormPartial.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Contact/_ContactFormPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxfQ29udGFjdEZvcm1QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Contact/_MapPartial.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Contact/_MapPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxfTWFwUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Home/Index.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_CollectionItemPartial.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_CollectionItemPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0NvbGxlY3Rpb25JdGVtUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_CollectionPartial.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_CollectionPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0NvbGxlY3Rpb25QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_HeaderPartial.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0hlYWRlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_ShowcasePartial.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_ShowcasePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1Nob3djYXNlUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_SpecialOffersPartial.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_SpecialOffersPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1NwZWNpYWxPZmZlcnNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_StarRatingPartial.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_StarRatingPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1N0YXJSYXRpbmdQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Product/Index.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Shared/_Layout.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/_ViewImports.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Prog22/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/_ViewStart.cshtml]
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

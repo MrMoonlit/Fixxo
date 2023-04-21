@@ -1,14 +1,16 @@
+using _01_AspNetMVC.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<CustomerSupportServices>();
+
+
+
+
 var app = builder.Build();
-
-if (!app.Environment.IsDevelopment())
-{
-    app.UseHsts();
-}
-
+app.UseHsts();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();

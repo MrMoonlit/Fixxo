@@ -23,7 +23,7 @@ public class ProductDTO
             Price = model.Price,
             StarRating = model.StarRating,
             Category = model.Category.Name, 
-            Tag = model.Tag
+            Tag = model.Tag.Name,
         };
     }
 }

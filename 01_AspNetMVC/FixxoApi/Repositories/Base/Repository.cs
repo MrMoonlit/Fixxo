@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace WebApi.Repositories;
+namespace Api.Repositories.Base;
 
 public abstract class Repository<TEntity, TContext> where TEntity : class where TContext : DbContext
 {

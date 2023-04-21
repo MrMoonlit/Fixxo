@@ -1,7 +1,7 @@
-﻿using FixxoApi.Contexts;
+﻿using Api.Repositories.Base;
+using FixxoApi.Contexts;
 using FixxoApi.Models.Entities;
 using Microsoft.EntityFrameworkCore;
-using WebApi.Repositories;
 
 namespace FixxoApi.Repositories
 {

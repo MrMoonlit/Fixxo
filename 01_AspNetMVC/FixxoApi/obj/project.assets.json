@@ -4371,11 +4371,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Prog22\\repos\\asp.net-project\\01_AspNetMVC\\FixxoApi\\Api.csproj",
+      "projectUniqueName": "D:\\repos\\asp.net-project\\01_AspNetMVC\\FixxoApi\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Prog22\\repos\\asp.net-project\\01_AspNetMVC\\FixxoApi\\Api.csproj",
+      "projectPath": "D:\\repos\\asp.net-project\\01_AspNetMVC\\FixxoApi\\Api.csproj",
       "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
-      "outputPath": "C:\\Prog22\\repos\\asp.net-project\\01_AspNetMVC\\FixxoApi\\obj\\",
+      "outputPath": "D:\\repos\\asp.net-project\\01_AspNetMVC\\FixxoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4390,7 +4390,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4459,7 +4458,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

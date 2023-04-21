@@ -1,8 +1,8 @@
 ﻿using Api.Models.Entities;
+using Api.Repositories.Base;
 using FixxoApi.Contexts;
 using FixxoApi.Migrations;
 using Microsoft.EntityFrameworkCore;
-using WebApi.Repositories;
 
 namespace Api.Repositories;
 
@@ -12,7 +12,10 @@ public class ProductRepository : Repository<ProductEntity, DataContext>
     {
     }
 
-    public DbSet<ProductEntity> Products { get; set; } = null!;
+    public override async Task<IEnumerable<ProductEntity>> GetAllAsync()
+    {
+        return await _context.Products.Include("Category").Include("Tag").ToListAsync();
+    }
 
    
 }

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers;
 
+
 [Route("api/[controller]")]
 [ApiController]
 public class CustomerCommentController : ControllerBase
@@ -17,8 +18,8 @@ public class CustomerCommentController : ControllerBase
         _commentRepo = commentService;
     }
 
-    [HttpPost]
     [Route("AddComment")]
+    [HttpPost]
     public async Task<IActionResult> AddAsync(CustomerCommentDTO model)
     {
         if (ModelState.IsValid)

@@ -36,10 +36,9 @@ public class ContactController : Controller
                 };
                 return View(model);
             }
-
+            
             model.ConfirmationMsg = "Oops, something went bellyup here. Please try again, if this happens again the server might have deemed your comment as trash.";
             return View(model);
-            
         }
         
         return View(model);

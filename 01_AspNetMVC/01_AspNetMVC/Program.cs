@@ -7,8 +7,6 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<CustomerSupportServices>();
 
 
-
-
 var app = builder.Build();
 app.UseHsts();
 app.UseHttpsRedirection();

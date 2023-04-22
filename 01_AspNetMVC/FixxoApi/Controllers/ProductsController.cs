@@ -20,14 +20,35 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route("All")]
-        public async Task<IActionResult> GetAllAync()
+        public async Task<IActionResult> GetAll()
         {
             return Ok(await _productService.GetAllAsync());
         }
 
+        [HttpGet]
+        [Route("Category")]
+        public async Task<IActionResult> GetByCategory(string category)
+        {
+            return Ok(await _productService.GetByCategoryAsync(category));
+        }
+
+        [HttpGet]
+        [Route("Tag")]
+        public async Task<IActionResult> GetByTag(string tag)
+        {
+            return Ok(await _productService.GetByTagAsync(tag));
+        }
+
+        [HttpGet]
+        [Route("Id")]
+        public async Task<IActionResult> GetById(int tag)
+        {
+            return Ok(await _productService.GetByIdAsync(tag));
+        }
+
         [HttpPost]
         [Route("CreateNew")]
-        public async Task<IActionResult> AddAsync(NewProductDTO model)
+        public async Task<IActionResult> AddItem(NewProductDTO model)
         {
             if (ModelState.IsValid)
             {

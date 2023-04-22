@@ -13,5 +13,6 @@ namespace FixxoApi.Contexts
         public DbSet<ProductEntity> Products { get; set; }
         public DbSet<TagEntity> Tags { get; set; }
         public DbSet<CustomerCommentEntity> Comments { get; set; } 
+        public DbSet<ShowcaseEntity> Showcases { get; set; }
     }
 }

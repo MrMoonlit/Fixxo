@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<CustomerSupportServices>();
+builder.Services.AddScoped<ShowcaseService>();
+builder.Services.AddScoped<ProductService>();
 
 
 var app = builder.Build();

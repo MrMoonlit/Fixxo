@@ -32,6 +32,40 @@ public class ProductService
         }
         return dtoList;
     }
+    public async Task<IEnumerable<ProductDTO>> GetByTagAsync(string tag)
+    {
+        var productsList = await _productRepo.GetListAsync(x => x.Tag.Name.ToLower() == tag.ToLower());
+        productsList = productsList.OrderByDescending(x => x.TimeCreated);
+
+        var dtoList = new List<ProductDTO>();
+        foreach (var item in productsList)
+        {
+            ProductDTO product = item;
+            dtoList.Add(product);
+        }
+        return dtoList;
+    }
+    public async Task<IEnumerable<ProductDTO>> GetByCategoryAsync(string category)
+    {
+        var productsList = await _productRepo.GetListAsync(x => x.Category.Name.ToLower() == category.ToLower()); ;
+        productsList = productsList.OrderByDescending(x => x.TimeCreated);
+
+        var dtoList = new List<ProductDTO>();
+        foreach (var item in productsList)
+        {
+            ProductDTO product = item;
+            dtoList.Add(product);
+        }
+        return dtoList;
+    }
+
+    public async Task<ProductDTO> GetByIdAsync(int id)
+    {
+        var item = await _productRepo.GetAsync(x => x.Id == id);
+        ProductDTO productDto = item;
+        return productDto;
+
+    }
 
     public async Task<bool> AddAsync(NewProductDTO model)
     {
@@ -47,6 +81,7 @@ public class ProductService
         }
         catch { return false; }
     }
+
 
 
 }

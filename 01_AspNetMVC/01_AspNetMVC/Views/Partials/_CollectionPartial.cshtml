@@ -1,13 +1,29 @@
 ﻿@model IEnumerable<CollectionItemModel>
 
-<section class="collection-grid">
-    <div class="container">
-        <div class="title">@ViewData["Title"]</div>
-        <div class="item-collection">
-           @* @foreach (var item in Model)
-            {
-                <partial name="~/Views/Shared/_CollectionItemPartial" model="item" />
-            }*@
+@if (Model != null)
+{
+    <section class="collection-grid">
+        <div class="container">
+            <div class="title">@ViewData["Title"]</div>
+            <div class="item-collection">
+
+                @foreach (var item in Model)
+                {
+                    <partial name="~/Views/Partials/_CollectionItemPartial.cshtml" model="item" />
+                }
+            </div>
+
         </div>
-    </div>
-</section>
+    </section>
+}
+else
+{
+    <section class="collection-grid">
+        <div class="container">
+            <div class="title">@ViewData["Title"]</div>
+            <div class="item-collection">
+               <div class="title-3">Come back later for some great products</div>
+            </div>
+        </div>
+    </section>
+}

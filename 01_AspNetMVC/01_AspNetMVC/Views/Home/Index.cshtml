@@ -1,3 +1,4 @@
-﻿
-<partial name="~/Views/Partials/_ShowcasePartial.cshtml" />
-<partial name="~/Views/Partials/_CollectionPartial.cshtml" />
+﻿@model HomeViewViewModel
+
+<partial name="~/Views/Partials/_ShowcasePartial.cshtml" model="Model.ShowcaseDTO" />
+<partial name="~/Views/Partials/_CollectionPartial.cshtml" model="Model.Featured" />

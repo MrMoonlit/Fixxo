@@ -21,13 +21,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<IdentityContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("IdentityDB")));
 builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DataDB")));
 builder.Services.AddScoped<JwtToken>();
+builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<UserProfileRepository>();
-builder.Services.AddScoped<ProductRepository>();
 builder.Services.AddScoped<CustomerCommentRepository>();
 builder.Services.AddScoped<TagRepository>();
 builder.Services.AddScoped<CategoryRepository>();
-builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<ProductRepository>();
 builder.Services.AddScoped<ProductService>();
+builder.Services.AddScoped<ShowcaseService>();
+builder.Services.AddScoped<ShowcaseRepository>();
 
 
 

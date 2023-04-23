@@ -1,9 +1,11 @@
-﻿using Api.Services;
+﻿using Api.Filters;
+using Api.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
 {
+    [UseApiKey]
     [Route("api/[controller]")]
     [ApiController]
     public class ShowcaseController : ControllerBase

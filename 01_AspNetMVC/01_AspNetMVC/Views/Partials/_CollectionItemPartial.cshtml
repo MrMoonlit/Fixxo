@@ -9,7 +9,7 @@
                 <button class="link"><i class="fa-regular fa-heart"></i></button>
                 <button class="link"><i class="fa-regular fa-bag-shopping"></i></button>
             </div>
-            <a class="btn-theme" href="/product">QUICK VIEW</a>
+            <a class="btn-theme" asp-controller="Product" asp-action="Details" asp-route-id="@Model.Id">QUICK VIEW</a>
         </div>
     </div>
     <div class="body-section">

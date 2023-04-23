@@ -41,7 +41,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(x =>
     x.Password.RequiredLength = 8;
 }).AddEntityFrameworkStores<IdentityContext>();
 
-#region Auth
+#region Auth(kom inte så långt att jag faktiskt behöver detta... womp womp
 builder.Services.AddAuthentication(x =>
 {
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -80,7 +80,7 @@ builder.Services.AddAuthentication(x =>
 
 var app = builder.Build();
 
-//app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection();

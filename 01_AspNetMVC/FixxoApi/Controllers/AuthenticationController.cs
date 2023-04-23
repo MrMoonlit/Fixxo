@@ -1,4 +1,5 @@
-﻿using FixxoApi.Models.DTOs;
+﻿using Api.Filters;
+using FixxoApi.Models.DTOs;
 using FixxoApi.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -7,7 +8,7 @@ using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 
 namespace FixxoApi.Controllers;
 
-
+[UseApiKey]
 [Route("api/[controller]")]
 [ApiController]
 public class AuthenticationController : ControllerBase

@@ -14,7 +14,7 @@ namespace _01_AspNetMVC.Services
         public async Task<ShowcaseDTO> GetLatestShowcaseAsync()
         {
             using var http = new HttpClient();
-            var result = await http.GetFromJsonAsync<ShowcaseDTO>("https://localhost:7039/api/Showcase/Get");
+            var result = await http.GetFromJsonAsync<ShowcaseDTO>($"https://localhost:7039/api/Showcase/Get?key={_configuration.GetValue<string>("ApiKey")}");
             return result!;
         }
     }

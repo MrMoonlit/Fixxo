@@ -14,7 +14,7 @@ public class CustomerSupportServices
     public async Task<HttpResponseMessage> SaveCommentAsync(CustomerCommentDTO model)
     {
         using var http = new HttpClient();
-        var result = await http.PostAsJsonAsync("https://localhost:7039/api/CustomerComment/AddComment", model);
+        var result = await http.PostAsJsonAsync($"https://localhost:7039/api/CustomerComment/AddComment?key={_configuration.GetValue<string>("ApiKey")}", model);
         
         return result;
     }

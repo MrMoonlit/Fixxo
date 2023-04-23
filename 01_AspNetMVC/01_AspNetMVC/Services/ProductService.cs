@@ -15,20 +15,20 @@ namespace _01_AspNetMVC.Services
         public async Task<IEnumerable<CollectionItemModel>> GetAllAsync()
         {
             using var http = new HttpClient();
-            var result = await http.GetFromJsonAsync<IEnumerable<CollectionItemModel>>($"https://localhost:7039/api/Products/All");
+            var result = await http.GetFromJsonAsync<IEnumerable<CollectionItemModel>>($"https://localhost:7039/api/Products/All?key={_configuration.GetValue<string>("ApiKey")}");
             return result!;
         }
         public async Task<IEnumerable<CollectionItemModel>> GetByTagAsync(string tag)
         {
             using var http = new HttpClient();
-            var result = await http.GetFromJsonAsync<IEnumerable<CollectionItemModel>>($"https://localhost:7039/api/Products/Tag?tag={tag}");
+            var result = await http.GetFromJsonAsync<IEnumerable<CollectionItemModel>>($"https://localhost:7039/api/Products/Tag?tag={tag}&key={_configuration.GetValue<string>("ApiKey")}");
             return result!;
         }
 
         public async Task<CollectionItemModel> GetByIdAsync(int id)
         {
             using var http = new HttpClient();
-            var result = await http.GetFromJsonAsync<CollectionItemModel>($"https://localhost:7039/api/Products/Id?={id}");
+            var result = await http.GetFromJsonAsync<CollectionItemModel>($"https://localhost:7039/api/Products/Id?tag={id}&key={_configuration.GetValue<string>("ApiKey")}");
             return result!;
         }
     }

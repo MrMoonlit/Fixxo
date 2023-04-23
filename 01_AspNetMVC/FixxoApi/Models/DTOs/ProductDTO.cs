@@ -12,6 +12,8 @@ public class ProductDTO
     public string Category { get; set; } = null!;
     public string Tag { get; set; } = null!;
 
+    public string? ImageUrl { get; set; }
+
 
     public static implicit operator ProductDTO(ProductEntity entity)
     {

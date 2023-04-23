@@ -19,9 +19,11 @@ public class HomeController : Controller
     {
         var showcase = await _showcaseService.GetLatestShowcaseAsync();
         var featuredProducts = await _productService.GetByTagAsync("Featured");
+        featuredProducts = featuredProducts.Take(8).ToList();
         var newProducts = await _productService.GetByTagAsync("New");
+        newProducts = newProducts.Take(6).ToList();
         var popularProducts = await _productService.GetByTagAsync("Popular");
-
+        popularProducts = popularProducts.Take(6).ToList();
         HomeViewViewModel model = new HomeViewViewModel
         {
             ShowcaseDTO = showcase,

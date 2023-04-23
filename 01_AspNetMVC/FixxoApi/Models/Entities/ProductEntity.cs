@@ -27,4 +27,6 @@ public class ProductEntity
     public CategoryEntity Category { get; set; } = null!;
 
     public DateTime TimeCreated { get; set; }
+
+    public string? ImageUrl { get; set; }
 }

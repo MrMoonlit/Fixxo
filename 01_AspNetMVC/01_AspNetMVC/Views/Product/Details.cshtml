@@ -1,0 +1,24 @@
+﻿@model CollectionItemModel
+
+<div class="product-details mt-5">
+    <div class="item collection-twocolumns mt-5">
+        <div class="image-section column mt-5">
+            @if (Model.ImageUrl == null)
+            {
+                <img src="~/images/blackCoat.png" alt="placeholder image" />
+            }
+            else
+            {
+                 <img src="@Model.ImageUrl" alt="" />
+            }
+        </div>
+        <div class="body-section mt-5">
+                <div class="category">@Model?.Category</div>
+                <div class="name">@Model?.Title</div>
+                <partial name="~/Views/Partials/_StarRatingPartial.cshtml" model="@Model?.StarRating" />
+                <p class="fw-medium mt-5 mb-5">@Model?.Description</p>
+                <button class="btn-theme">ADD TO CART</button>
+                <div class="price">$@Model?.Price</div>
+        </div>
+    </div>
+</div>

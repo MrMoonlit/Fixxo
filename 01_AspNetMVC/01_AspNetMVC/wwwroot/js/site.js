@@ -1,4 +1,9 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿const headerBurgerBtn = document.querySelector('[data-option="menuToggle"]')
+headerBurgerBtn.addEventListener('click', () => {
+    const headerMenu = document.querySelector(headerBurgerBtn.getAttribute('data-target'))
+    if (headerMenu.classList.contains('hide')) {
+        headerMenu.classList.remove('hide')
+    } else {
+        headerMenu.classList.add('hide')
+    }
+})

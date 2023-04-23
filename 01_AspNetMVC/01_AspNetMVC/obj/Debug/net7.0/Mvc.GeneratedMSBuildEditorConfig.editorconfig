@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0NvbGxlY3Rpb25QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0Zvb3RlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0hlYWRlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,8 +72,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1N0YXJSYXRpbmdQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_TwoColumnCollectionPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1R3b0NvbHVtbkNvbGxlY3Rpb25QYXJ0aWFsLmNzaHRtbA==
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_TwoColumnCollectionNewPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1R3b0NvbHVtbkNvbGxlY3Rpb25OZXdQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Partials/_TwoColumnCollectionPopularPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1R3b0NvbHVtbkNvbGxlY3Rpb25Qb3B1bGFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/repos/asp.net-project/01_AspNetMVC/01_AspNetMVC/Views/Product/Index.cshtml]

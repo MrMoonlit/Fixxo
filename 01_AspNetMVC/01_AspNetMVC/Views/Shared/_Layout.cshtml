@@ -12,7 +12,7 @@
 <body>
     <partial name="~/Views/Partials/_HeaderPartial.cshtml" />
     @RenderBody()
-        
+    <partial name="~/Views/Partials/_FooterPartial.cshtml" />
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
